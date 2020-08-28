@@ -21,14 +21,18 @@ function Header() {
           alt="facebook logo"
         />
 
-        <div className="header__icon">
+        <div className="header__input">
           <SearchIcon />
-          <input type="text" />
+
+          <input type="text" placeholder="Search Facebook" />
         </div>
       </div>
 
       <div className="header__middle">
-        <div className="header__option">
+        <div
+          className="header__option
+        header__option--active"
+        >
           <HomeIcon fontSize="large" />
         </div>
         <div className="header__option">
